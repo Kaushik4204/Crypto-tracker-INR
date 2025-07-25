@@ -73,17 +73,26 @@ crypto-tracker/
 Setup Instructions
 
 1. Clone the repo
+
+ ```bash
 git clone https://github.com/Kaushik4204/Crypto-tracker-INR.git
 cd Crypto-tracker-INR
+  ```
 
 2. Create a virtual environment (optional but recommended)
+
+ ```bash
 python -m venv venv
 venv\Scripts\activate  # On Windows
+ ```
 
-3. Install dependencies
+4. Install dependencies
+
+ ```bash
 pip install -r requirements.txt
+ ```
 
-4. Add your API key
+5. Add your API key
 Create a .env file in the root directory:
 CMC_API_KEY=your_coinmarketcap_api_key
 
