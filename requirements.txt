@@ -1,0 +1,7 @@
+requests
+pandas
+streamlit
+schedule
+python-dotenv
+matplotlib
+seaborn
