@@ -25,29 +25,52 @@ A professional real-time dashboard to monitor the **top 50 cryptocurrencies** us
 
 crypto-tracker/
 ├── dashboard/
+
 │ └── app.py # Streamlit app entry
+
 │
+
 ├── data/
+
 │ └── crypto_prices.csv # Saved daily snapshots
+
 │
+
 ├── scheduler/
+
 │ └── daily_scraper.py # Scheduled fetch & save
+
 │
+
 ├── src/
+
 │ ├── fetch_data.py
+
 │ ├── save_data.py
+
 │ ├── config.py
+
 │ └── init.py
+
 │
+
 ├── .streamlit/
+
 │ └── secrets.toml # For Streamlit Cloud API key
+
 │
+
 ├── .env # Local API key (ignored in git)
+
 ├── .gitignore
+
 ├── requirements.txt
+
 └── README.md
 
- Setup Instructions
+---
+
+Setup Instructions
 
 1. Clone the repo
 git clone https://github.com/Kaushik4204/Crypto-tracker-INR.git
@@ -64,17 +87,23 @@ pip install -r requirements.txt
 Create a .env file in the root directory:
 CMC_API_KEY=your_coinmarketcap_api_key
 
-💻 Run Locally
+---
+
+💻 Run Locally:
 streamlit run dashboard/app.py
 
 Daily Data Capture
 To save crypto prices daily at 8:00 AM (can be modified):
 python scheduler/daily_scraper.py
 
+---
+
 📌 Notes
 The .env file is excluded via .gitignore to keep your API key safe.
 All interactive charts are created using Plotly.
 The project supports INR (₹) conversion directly via the API.
+
+---
 
 Contact
 Built by Kaushik Puli
