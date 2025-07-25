@@ -115,9 +115,7 @@ The project supports INR (₹) conversion directly via the API.
 ---
 
 Contact:
-
 Built by Kaushik Puli
-
 Email: 2021.kaushik.puli@ves.ac.in
 
 
